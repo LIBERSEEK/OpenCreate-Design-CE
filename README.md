@@ -15,16 +15,16 @@
 
 具体可用的代理、模型和生成服务取决于你的环境与服务商配置。
 
-## 下载 v0.0.2
+## 下载 v0.0.3
 
 | 平台 | 安装包 | 支持设备 |
 |---|---|---|
-| macOS | [OpenCreate-Design-v0.0.2-mac-arm64.dmg](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/download/v0.0.2/OpenCreate-Design-v0.0.2-mac-arm64.dmg) | Apple 芯片（arm64） |
-| Windows | [OpenCreate-Design-v0.0.2-win-x64-setup.exe](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/download/v0.0.2/OpenCreate-Design-v0.0.2-win-x64-setup.exe) | 64 位 Windows（x64） |
+| macOS | [OpenCreate-Design-v0.0.3-mac-arm64.dmg](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/download/v0.0.3/OpenCreate-Design-v0.0.3-mac-arm64.dmg) | Apple 芯片（arm64） |
+| Windows | [OpenCreate-Design-v0.0.3-win-x64-setup.exe](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/download/v0.0.3/OpenCreate-Design-v0.0.3-win-x64-setup.exe) | 64 位 Windows（x64） |
 
 安装后的应用名称为 **OpenCreate Design**。Intel 芯片 Mac 和 Linux 暂无此版本的预编译安装包。
 
-更多版本和本次更新内容见 [v0.0.2 Release](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/tag/v0.0.2)。
+更多版本和本次更新内容见 [v0.0.3 Release](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/tag/v0.0.3)。本次版本同步应用源码 main，包含新的 BOFT OAuth issuer 与 MCP resource 地址适配。
 
 ## 安装
 
@@ -47,13 +47,13 @@ Release 提供 SHA-256 校验文件。下载安装包和对应的 `.sha256` 文�
 macOS：
 
 ```bash
-shasum -a 256 -c OpenCreate-Design-v0.0.2-mac-arm64.dmg.sha256
+shasum -a 256 -c OpenCreate-Design-v0.0.3-mac-arm64.dmg.sha256
 ```
 
 Windows PowerShell：
 
 ```powershell
-(Get-FileHash .\OpenCreate-Design-v0.0.2-win-x64-setup.exe -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash .\OpenCreate-Design-v0.0.3-win-x64-setup.exe -Algorithm SHA256).Hash.ToLower()
 ```
 
 Windows 上将命令输出与 Release 中 `.exe.sha256` 文件里的哈希值比较。
